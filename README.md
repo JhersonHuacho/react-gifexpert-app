@@ -33,3 +33,28 @@ https://www.netlify.com/
 
 * git : retornar a como estaba en el último commit
   - git checkout -- .
+
+* Testing
+  
+Seguir el camino de las pruebas
+Pruebas en componentes específicos
+Pruebas en componentes de forma individual
+Pruebas con customHooks
+Esperar cambios en un customHook
+Simular eventos en inputs y formularios
+Simular llamadas a funciones
+Evaluar si existen elementos en el componente
+
+https://gist.github.com/Klerith/ca7e57fae3c9ab92ad08baadc6c26177
+
+1. Instalaciones:
+
+npm install --dev jest babel-jest @babel/preset-env @babel/preset-react 
+npm install -D jest@29.5.0 babel-jest@29.5.0 @babel/preset-env@7.21.5 @babel/preset-react@7.24.1
+
+npm install --dev @testing-library/react @types/jest jest-environment-jsdom
+npm install -D @testing-library/react@14.2.2 @types/jest@29.5.1 jest-environment-jsdom@29.7.0
+
+2. Opcional: Si usamos Fetch API en el proyecto:
+
+npm install --dev whatwg-fetch

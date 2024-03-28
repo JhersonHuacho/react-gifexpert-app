@@ -58,3 +58,6 @@ npm install -D @testing-library/react@14.2.2 @types/jest@29.5.1 jest-environment
 2. Opcional: Si usamos Fetch API en el proyecto:
 
 npm install --dev whatwg-fetch
+
+* solo para React 16 y 17. En 18 ya no se usa.
+  https://react-hooks-testing-library.com/
